@@ -3,79 +3,102 @@
 <head>
     <meta charset="utf-8">
     <title>日本六天五夜旅遊規劃</title>
-
     <style>
-        header, nav, main, footer {
-            padding: 15px;
-            margin: 10px 0;
-        }
+        /* 整體背景與字體 */
+        body {font-family: "新細明體", "標楷體", sans-serif;background-color: #f9f5f0;margin: 0;}
 
-        nav, main, aside {
-            float: left;
-        }
+        /* 讓整個版面置中 */
+        .wrapper {width: 1000px;margin: 0 auto;}
 
-        nav {
-            width: 20%;
-            background-color: lightyellow;
-        }
+        header {text-align: center;padding: 20px 10px;background-color: #ffe6b3;margin-bottom: 10px;}
 
-        main {
-            width: 60%;
-            background-color: #f0f0f0;
-        }
+        header h1 {margin: 0;letter-spacing: 5px;}
 
-        aside {
-            width: 20%;
-            background-color: lightpink;
+        header p {margin: 5px 0 0 0;}
+
+        nav, main, aside {float: left;padding: 15px;box-sizing: border-box;}
+
+        nav {width: 20%;background-color: #fff7cc;}
+
+        main {width: 60%;background-color: #f0f0f0;}
+
+        aside {width: 20%;background-color: #ffe0ec;}
+
+        nav h3, main h2, aside h3 {
+            margin-top: 0;
         }
 
         footer {
             clear: both;
-            background-color: #d9d9d9;
             text-align: center;
+            padding: 10px;
+            margin-top: 10px;
+            background-color: #d9d9d9;
+        }
+
+        /* 小小排版優化 */
+        ul {
+            padding-left: 20px;
+        }
+
+        main p {
+            line-height: 150%;
+            text-indent: 2em;
         }
     </style>
 </head>
 
 <body>
+    <div class="wrapper">
+        <header>
+            <h1>日本六天五夜旅遊規劃</h1>
+            <p>行程 · 景點 · 交通 · 住宿 · 小提醒</p>
+        </header>
 
-    <header>
-        <h1>日本六天五夜旅遊規劃</h1>
-        <p>行程｜景點｜交通｜住宿</p>
-    </header>
+        <nav>
+            <h3>行程總覽</h3>
+            <ul>
+                <li>第 1 天：出發 & 抵達</li>
+                <li>第 2 天：市區觀光</li>
+                <li>第 3 天：主題樂園</li>
+                <li>第 4 天：近郊一日遊</li>
+                <li>第 5 天：購物 / 自由活動</li>
+                <li>第 6 天：返程回家</li>
+            </ul>
+        </nav>
 
-    <nav>
-        <h3>導覽</h3>
-        <ul>
-            <li>第 1 天</li>
-            <li>第 2 天</li>
-            <li>第 3 天</li>
-            <li>第 4 天</li>
-            <li>第 5 天</li>
-            <li>第 6 天</li>
-        </ul>
-    </nav>
+        <main>
+            <h2>網站介紹</h2>
+            <p>
+                這個網站是「日本六天五夜旅遊規劃」的簡易介紹頁面，
+                內容會包含每天的行程安排、預計造訪的景點，以及交通與住宿的簡單紀錄。
+            </p>
 
-    <main>
-        <h2>行程介紹</h2>
-        <p>這裡將放置每日的詳細行程規劃，例如景點、交通方式、餐廳與住宿安排。</p>
+            <h2>行程規劃說明</h2>
+            <p>
+                之後可以在這裡依照每天日期，加入更詳細的景點名稱、搭車方式、
+                預算與備註，例如：第 1 天從台灣出發、抵達日本後前往飯店辦理入住等。
+            </p>
 
-        <h2>今天先做骨架！</h2>
-        <p>下一步我們會把它變得更好看～</p>
-    </main>
+            <p>
+                目前這一頁先完成整體版型與區塊劃分，之後可以再慢慢補上內容，
+                也可以把表格、清單、圖片或表單放進來當作作業展示。
+            </p>
+        </main>
 
-    <aside>
-        <h3>小提醒</h3>
-        <ul>
-            <li>記得帶護照！</li>
-            <li>JR PASS 建議提前預約</li>
-            <li>換錢要比價</li>
-        </ul>
-    </aside>
+        <aside>
+            <h3>小提醒</h3>
+            <ul>
+                <li>護照、機票務必再次確認</li>
+                <li>重要文件可先拍照備份</li>
+                <li>隨身藥品與保暖衣物</li>
+                <li>網卡或 Wi-Fi 機提早準備</li>
+            </ul>
+        </aside>
 
-    <footer>
-        <p>© 2025 日本旅遊規劃示範頁面</p>
-    </footer>
-
+        <footer>
+            <p>© 2025 日本六天五夜旅遊規劃 · 作業示範頁面</p>
+        </footer>
+    </div>
 </body>
 </html>
