@@ -3,10 +3,11 @@
 <head>
     <meta charset="utf-8">
     <title>日本六天五夜旅遊規劃</title>
+
     <style>
         body {
-            font-family: "新細明體", "標楷體", sans-serif;
-            background-color: #f9f5f0;
+            font-family: "標楷體", sans-serif;
+            background-color: #fff7f0;
             margin: 0;
         }
 
@@ -17,14 +18,11 @@
 
         header {
             text-align: center;
-            padding: 20px 10px;
-            background-color: #ffe6b3;
-            margin-bottom: 10px;
-        }
-
-        header h1 {
-            margin: 0;
-            letter-spacing: 5px;
+            background-color: #ffddb3;
+            padding: 25px;
+            border-radius: 10px;
+            margin: 20px 0;
+            box-shadow: 0 3px 6px rgba(0,0,0,0.2);
         }
 
         nav, main, aside {
@@ -35,48 +33,63 @@
 
         nav {
             width: 20%;
-            background-color: #fff7cc;
+            background-color: #fff1c7;
+            border-radius: 10px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
         }
 
         main {
             width: 60%;
-            background-color: #f0f0f0;
+            background-color: #ffffff;
+            border-radius: 10px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            padding-bottom: 30px;
         }
 
         aside {
             width: 20%;
             background-color: #ffe0ec;
+            border-radius: 10px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
         }
 
         footer {
             clear: both;
+            background-color: #ffd6d6;
             text-align: center;
             padding: 10px;
-            margin-top: 10px;
-            background-color: #d9d9d9;
-        }
-
-        main h2 {
-            margin-top: 25px;
+            border-radius: 10px;
+            margin-top: 20px;
         }
 
         table {
-            margin: 10px 0;
+            width: 100%;
+            border-collapse: collapse;
+            margin: 15px 0;
+            background-color: #fffaf5;
+            border-radius: 8px;
+            overflow: hidden;
         }
 
         table caption {
+            background-color: #ffd4b8;
+            padding: 8px;
             font-weight: bold;
+        }
+
+        td, th {
+            padding: 8px;
+            border: 1px solid #e6ccb3;
+        }
+
+        ul ul li {
             margin-bottom: 5px;
         }
 
-        ul {
-            padding-left: 20px;
+        h2 {
+            margin-top: 25px;
         }
 
-        main p {
-            line-height: 150%;
-            text-indent: 2em;
-        }
     </style>
 </head>
 
@@ -85,42 +98,40 @@
 
         <header>
             <h1>日本六天五夜旅遊規劃</h1>
-            <p>航班資訊 · 行程介紹 · 景點規劃</p>
+            <p>🌸 航班資訊 · 行程安排 · 景點推薦 🌸</p>
         </header>
 
         <nav>
             <h3>行程總覽</h3>
             <ul>
-                <li>Day 1：出發</li>
-                <li>Day 2：環球影城</li>
-                <li>Day 3：大阪市區</li>
-                <li>Day 4：京都散策</li>
-                <li>Day 5：逛街購物</li>
-                <li>Day 6：返家</li>
+                <li>Day 1 出發</li>
+                <li>Day 2 環球影城</li>
+                <li>Day 3 大阪市區</li>
+                <li>Day 4 京都散策</li>
+                <li>Day 5 心齋橋購物</li>
+                <li>Day 6 回家</li>
             </ul>
         </nav>
 
         <main>
             <h2>✈ 航班資訊</h2>
 
-            <!-- 去程 -->
-            <table frame="border" rules="all" width="100%">
+            <table>
                 <caption>去程（2026/01/19）</caption>
                 <tr><th>航空公司</th><td>馬來西亞亞洲航空</td></tr>
                 <tr><th>航班號碼</th><td>D7378</td></tr>
                 <tr><th>出發</th><td>TPE 15:40</td></tr>
                 <tr><th>抵達</th><td>KIX 19:20</td></tr>
-                <tr><th>出發地</th><td>桃園機場 第一航廈</td></tr>
+                <tr><th>地點</th><td>桃園機場 → 關西機場</td></tr>
             </table>
 
-            <!-- 回程 -->
-            <table frame="border" rules="all" width="100%">
+            <table>
                 <caption>回程（2026/01/24）</caption>
                 <tr><th>航空公司</th><td>捷星日本</td></tr>
                 <tr><th>航班號碼</th><td>GK055</td></tr>
                 <tr><th>出發</th><td>KIX 14:50</td></tr>
                 <tr><th>抵達</th><td>TPE 17:10</td></tr>
-                <tr><th>抵達地</th><td>桃園機場 第一航廈</td></tr>
+                <tr><th>地點</th><td>關西機場 → 桃園機場</td></tr>
             </table>
 
             <h2>🗓 行程資訊</h2>
@@ -129,23 +140,18 @@
                 <li><b>1/19（星期一）</b>
                     <ul><li>佳家 → 桃園機場 → 關西機場 → 飯店</li></ul>
                 </li>
-
                 <li><b>1/20（星期二）</b>
                     <ul><li>環球影城</li></ul>
                 </li>
-
                 <li><b>1/21（星期三）</b>
                     <ul><li>大阪城 → 通天閣 → 難波八阪神社</li></ul>
                 </li>
-
                 <li><b>1/22（星期四）</b>
                     <ul><li>清水寺 → 三年坂 → 二年坂 → 八坂神社 → 祇園花見小路</li></ul>
                 </li>
-
                 <li><b>1/23（星期五）</b>
                     <ul><li>晴空電視台 → 心齋橋 → 道頓堀</li></ul>
                 </li>
-
                 <li><b>1/24（星期六）</b>
                     <ul><li>飯店 → 關西機場 → 桃園機場 → 回家</li></ul>
                 </li>
@@ -157,14 +163,14 @@
             <h3>旅遊小提醒</h3>
             <ul>
                 <li>護照與機票確認</li>
-                <li>提前預約交通票券</li>
-                <li>保暖衣物與藥品</li>
+                <li>提前預約票券</li>
+                <li>保暖衣物</li>
                 <li>網卡 / Wi-Fi 機</li>
             </ul>
         </aside>
 
         <footer>
-            <p>© 2025 日本六天五夜旅遊規劃 · 作業示範頁面</p>
+            日本六天五夜旅遊規劃 · 作業示範
         </footer>
 
     </div>
